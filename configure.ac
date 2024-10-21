@@ -12,7 +12,7 @@ AC_INIT([libmrss], [libmrss_version])
 AC_CONFIG_SRCDIR([src/mrss_generic.c])
 AC_CONFIG_MACRO_DIRS([m4])
 
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([foreign])
 AM_SANITY_CHECK
 AM_CONFIG_HEADER(config.h)
 AM_MAINTAINER_MODE
